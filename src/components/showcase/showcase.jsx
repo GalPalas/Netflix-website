@@ -1,19 +1,18 @@
-import React from 'react'
-import "./showcase.css"
+import React from "react";
+import "./showcase.css";
 
 function Showcase() {
-    return (
-      
+  return (
     <section className="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
       <div className="container">
         <div className="d-sm-flex align-items-center justify-content-between">
           <div>
             <h1>
-            <span className="text-danger">Unlimited</span> movies, TV shows, and more.
+              <span className="text-danger">Unlimited</span> movies, TV shows,
+              and more.
             </h1>
-            <p className="lead my-4">
-            Watch anywhere. Cancel anytime.
-            </p>
+
+            <p className="lead my-4">Watch anywhere. Cancel anytime.</p>
             <button
               className="btn btn-outline-danger btn-lg showcase-button"
               data-bs-toggle="modal"
@@ -29,8 +28,8 @@ function Showcase() {
           ></img>
         </div>
       </div>
-      </section>
-    )
+    </section>
+  );
 }
 
-export default Showcase
+export default Showcase;
