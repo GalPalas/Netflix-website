@@ -15,7 +15,7 @@ function Newsletter() {
               type="text"
               className="form-control"
               placeholder="Email Address"
-              onclick="input.blur()"
+              onClick="input.blur()"
             ></input>
             <span className="bg-dark text-light btn-lg input-group-text">
               Get Started
