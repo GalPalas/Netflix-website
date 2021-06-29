@@ -4,6 +4,7 @@ import Showcase from "../components/showcase/showcase";
 import Newsletter from "../components/newsletter/newsletter";
 import MainInfoCards from "../components/infoCards/mainInfoCards";
 import Questions from "../components/questions/Questions";
+import Footer from "../components/footer/footer";
 
 function WelcomePage() {
   return (
@@ -13,6 +14,7 @@ function WelcomePage() {
       <Newsletter />
       <MainInfoCards />
       <Questions />
+      <Footer />
     </div>
   );
 }
