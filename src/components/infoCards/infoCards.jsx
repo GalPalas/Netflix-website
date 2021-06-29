@@ -8,14 +8,14 @@ function InfoCards({ title, description, imageSrc, reverse }) {
           <div className="d-lg-flex flex-row-reverse align-items-center justify-content-center">
             <div className="px-3">
               <h1 className="mb-3">{title}</h1>
-              <h2>{description}</h2>
+              <h2 className="mb-lg-4">{description}</h2>
             </div>
             <img src={imageSrc} alt="" className="image-fluid w-50"></img>
           </div>
         ) : (
           <div className="d-lg-flex align-items-center justify-content-center">
             <div className="px-3">
-              <h1 className="mb-3">{title}</h1>
+              <h1 className="mb-5">{title}</h1>
               <h2>{description}</h2>
             </div>
             <img src={imageSrc} alt="" className="image-fluid w-50"></img>
