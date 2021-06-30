@@ -15,11 +15,10 @@ function Newsletter() {
               type="text"
               className="form-control"
               placeholder="Email Address"
-              onClick="input.blur()"
             ></input>
-            <span className="bg-dark text-light btn-lg input-group-text">
+            <button className="bg-dark text-light btn-lg input-group-text">
               Get Started
-            </span>
+            </button>
           </div>
         </div>
       </div>
